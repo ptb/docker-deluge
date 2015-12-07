@@ -114,6 +114,6 @@ EXPOSE 8112 58846
 # docker run --detach --name deluge --net host \
 #   --publish 8112:8112/tcp \
 #   --publish 58846:58846/tcp \
-#   --volume /volume1/@appstore/Deluge:/home/deluge \
-#   --volume /volume1/Incoming:/home/media \
+#   --volume /volume1/Config/Deluge:/home/deluge \
+#   --volume /volume1/Media:/home/media \
 #   ptb2/deluge
